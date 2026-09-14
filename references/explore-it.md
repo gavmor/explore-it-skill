@@ -77,3 +77,4 @@ The book is organized into three major parts:
 ## Sources
 
 - Hendrickson, Elisabeth. *Explore It! Reduce Risk and Increase Confidence with Exploratory Testing*. Pragmatic Bookshelf, 2013. ISBN: 978-1-937785-02-4.
+- Official book page: <https://pragprog.com/titles/ehxta/explore-it/>

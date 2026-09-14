@@ -10,7 +10,7 @@ This project is built directly upon the pioneering work of **Elisabeth Hendricks
 
 - **Book**: *Explore It! Reduce Risk and Increase Confidence with Exploratory Testing*  
   Published by The Pragmatic Bookshelf (2013). ISBN-13: 978-1-937785-02-4.  
-  Website: [pragprog.com/book/ehxta/explore-it](https://pragprog.com/book/ehxta/explore-it)
+  Website: [pragprog.com/titles/ehxta/explore-it](https://pragprog.com/titles/ehxta/explore-it/)
 - **Core Intellectual Contributions**:
   - The unifying formulation: **$\text{Tested} = \text{Checked} + \text{Explored}$**. Automated checks verify expected behavior; exploratory testing discovers unknown risks.
   - The three-part **Test Charter** template: `Explore [target] with [resources] to discover [information]`.
