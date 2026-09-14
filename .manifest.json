@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sources": {
+    "/home/user/Downloads/Explore It! _ Reduce Risk and Increase Confidence with -- Hendrickson, Elisabeth.pdf": {
+      "ingested_at": "2026-09-14T14:33:11-07:00",
+      "size_bytes": 4233825,
+      "modified_at": "2026-09-14T14:28:07-07:00",
+      "content_hash": "sha256:db0d0a9173898878d196e1fc10386e645e7632cff389891966e8a5bcb81bde06",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "references/explore-it.md",
+        "entities/elisabeth-hendrickson.md",
+        "concepts/exploratory-testing.md",
+        "concepts/test-charter.md",
+        "skills/charter-design.md",
+        "concepts/test-heuristics.md",
+        "skills/heuristic-test-execution.md",
+        "concepts/software-observability-testing.md",
+        "concepts/variables-in-testing.md",
+        "concepts/test-oracles.md",
+        "skills/state-model-exploration.md",
+        "skills/recon-session.md",
+        "concepts/exploratory-testing-in-agile.md"
+      ],
+      "pages_updated": []
+    }
+  },
+  "stats": {
+    "total_sources_ingested": 1,
+    "total_pages": 13
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "suite_name": "exploratory-testing-skills",
+  "evals": [
+    {
+      "id": 1,
+      "skill_target": "charter-design",
+      "prompt": "We're releasing a new batch payout feature that lets admins disburse payments to 1,000 sellers at once via Stripe Connect. What charters should we explore before shipping?",
+      "expected_output": "Focused charters using the 3-part template (Explore / With / To Discover), derived from the Nightmare Headline Game (e.g., duplicate dispatches, network timeouts, partial failures), with Never/Always invariants."
+    },
+    {
+      "id": 2,
+      "skill_target": "heuristic-test-execution",
+      "prompt": "I have an API endpoint POST /v1/documents that accepts a multipart file upload and metadata JSON. How should I test its resilience using heuristics?",
+      "expected_output": "Stacked heuristics (Goldilocks for file sizes, Violate Data Format Rules for corrupted headers/payloads, Interrupt for network drops mid-stream, Zero/One/Many for metadata fields), paired with server log inspection."
+    },
+    {
+      "id": 3,
+      "skill_target": "state-model-exploration",
+      "prompt": "Users occasionally report that when they cancel a subscription, their account gets charged again anyway. It only happens intermittently. How can we investigate this?",
+      "expected_output": "State detection using Jorgensen's questions and 'While' states (e.g. 'While renewal payment is processing'), construction of a state table mapping events against states, and identification of race windows between cancel requests and scheduled billing jobs."
+    },
+    {
+      "id": 4,
+      "skill_target": "recon-session",
+      "prompt": "I just inherited a legacy repository with a backend daemon that syncs files to S3. There are no docs. What should my first testing session look like?",
+      "expected_output": "A 45-minute recon session charter, touchpoint inventory (daemon CLI flags, S3 bucket permissions, local staging directory, logs), ecosystem map, variable catalog, and baseline stress probe (e.g. missing credentials or empty files)."
+    }
+  ]
+}
